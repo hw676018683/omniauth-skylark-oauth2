@@ -10,7 +10,7 @@ module OmniAuth
         :authorize_url => "/oauth/authorize"
       }
 
-      uid { raw_info["id"] || SecureRandom.hex }
+      uid { raw_info["id"] }
 
       info do
         {
