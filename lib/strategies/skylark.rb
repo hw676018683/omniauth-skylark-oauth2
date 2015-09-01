@@ -18,7 +18,8 @@ module OmniAuth
           :nickname => raw_info["nickname"],
           :phone => raw_info["phone"],
           :qq => raw_info["qq"],
-          :headimgurl => raw_info["headimgurl"]
+          :headimgurl => raw_info["headimgurl"],
+          :organization_ids => raw_info["organization_ids"]
         }
       end
 
