@@ -19,7 +19,8 @@ module OmniAuth
           :phone => raw_info["phone"],
           :qq => raw_info["qq"],
           :headimgurl => raw_info["headimgurl"],
-          :organization_ids => raw_info["organization_ids"]
+          :organization_ids => raw_info["organization_ids"],
+          :namespace_id => raw_info["namespace_id"]
         }
       end
 
